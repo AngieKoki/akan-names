@@ -33,16 +33,20 @@
                 </div>
                 <div class='form-group'>
                     <label for='gender'> Gender: </label>
-                    <select name='gender' id='gender' class='form-control'>
-                        <option value='female'>Female</option>
-                        <option value='male'>Male</option>
-                    </select>
+                        <input type='radio' name='gender' id='male' value='Male'>
+                        <label for='male'>Male</label>
+
+                        <input type='radio' name='gender' id='female' value='Female'>
+                        <label for='male'>Female</label>
                 </div>
                 <div class='form-group'>
                     <label for='dob'> Birthday: </label>
                     <input type='date' id='dob' class='form-control'>
                 </div>
-                <input type="submit" value='Submit' class='btn btn-success btn-block'>  
+                <button id='btn'class= 'btn-success btn-block' onclick="getweekDay(); return false">Submit</button>
+                <div class='akan-name'>
+                    <p id='message' class='output'></p>
+                </div>
             </form>
         </div>
     </section>
