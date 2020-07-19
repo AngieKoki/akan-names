@@ -45,7 +45,7 @@ So that I can get an Akan Name
 4. When the user clicks on Submit
 5. Then the application generates a valid Akan name
 
-##### Name and Birthday inputted and gender NOT selected:
+#### Name and Birthday inputted and gender NOT selected:
 
 1. Given the name is inputted
 2.   and birthday is inputted
