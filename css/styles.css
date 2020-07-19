@@ -1,8 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-}
-.view{
     background-image: url('../images/culture.jpg');
     background-repeat: no-repeat;
     background-position: center;
