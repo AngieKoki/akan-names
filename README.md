@@ -37,43 +37,43 @@ I want to input my name, birthday and select my gender
 So that I can get an Akan Name
 
 ### Scenarios
-1. Name and birthday inputted and gender selected:
+#### Name and birthday inputted and gender selected:
 
-    Given the name is inputted
-        and birthday is inputted
-        and gender is selected
-    When the user clicks on Submit
-    Then the application generates a valid Akan name
+1. Given the name is inputted
+2.    and birthday is inputted
+3.    and gender is selected
+4. When the user clicks on Submit
+5. Then the application generates a valid Akan name
 
-2. Name and Birthday inputted and gender NOT selected:
+##### Name and Birthday inputted and gender NOT selected:
 
-    Given the name is inputted
-        and birthday is inputted
-        and gender is  NOT selected
-    When the user clicks on Submit
-    Then the application generates an error message to fill in the necessary field
+1. Given the name is inputted
+2.   and birthday is inputted
+3.   and gender is  NOT selected
+4. When the user clicks on Submit
+5. Then the application generates an error message to fill in the necessary field
 
-3. Name inputted and gender selected but birthday not inputted:
+#### Name inputted and gender selected but birthday not inputted:
 
-    Given the name is inputted
-        and gender is selected
-        and birthday is NOT inputted
-    When the user clicks on Submit
-    Then the application generates an error message to fill in the necessary field
+1. Given the name is inputted
+2.  and gender is selected
+3.  and birthday is NOT inputted
+4. When the user clicks on Submit
+5. Then the application generates an error message to fill in the necessary field
 
-4. Name inputted but gender NOT selected and birthday NOT inputted:
+#### Name inputted but gender NOT selected and birthday NOT inputted:
 
-     Given the name is inputted
-        and gender is NOT selected
-        and birthday is NOT inputted
-    When the user clicks on Submit
-    Then the application generates an error message to fill in the necessary fields
+1. Given the name is inputted
+2.  and gender is NOT selected
+3.  and birthday is NOT inputted
+4. When the user clicks on Submit
+5. Then the application generates an error message to fill in the necessary fields
 
-5. No input in any field:
+#### No input in any field:
 
-    *Given no input in any field
-    *When the user clicks on Submit
-    *Then the application generates an error message to fill in the necessary fields
+1. Given no input in any field
+2. When the user clicks on Submit
+3. Then the application generates an error message to fill in the necessary fields
 
 ## Technologies used
 I used: HTML CSS and  JAVASCRIPT to create this application
