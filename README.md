@@ -37,38 +37,43 @@ I want to input my name, birthday and select my gender
 So that I can get an Akan Name
 
 ### Scenarios
-1. Name and birthday inputted and gender selected
+1. Name and birthday inputted and gender selected:
+
     Given the name is inputted
         and birthday is inputted
         and gender is selected
     When the user clicks on Submit
     Then the application generates a valid Akan name
 
-2. Name and Birthday inputted and gender NOT selected
+2. Name and Birthday inputted and gender NOT selected:
+
     Given the name is inputted
         and birthday is inputted
         and gender is  NOT selected
     When the user clicks on Submit
     Then the application generates an error message to fill in the necessary field
 
-3. Name inputted and gender selected but birthday not inputted
+3. Name inputted and gender selected but birthday not inputted:
+
     Given the name is inputted
         and gender is selected
         and birthday is NOT inputted
     When the user clicks on Submit
     Then the application generates an error message to fill in the necessary field
 
-4. Name inputted but gender NOT selected and birthday NOT inputted
+4. Name inputted but gender NOT selected and birthday NOT inputted:
+
      Given the name is inputted
         and gender is NOT selected
         and birthday is NOT inputted
     When the user clicks on Submit
     Then the application generates an error message to fill in the necessary fields
 
-5. No input in any field
-    Given no input in any field
-    When the user clicks on Submit
-    Then the application generates an error message to fill in the necessary fields
+5. No input in any field:
+
+    *Given no input in any field
+    *When the user clicks on Submit
+    *Then the application generates an error message to fill in the necessary fields
 
 ## Technologies used
 I used: HTML CSS and  JAVASCRIPT to create this application
