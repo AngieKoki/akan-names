@@ -60,7 +60,7 @@ else {
 //manipulation
 
 //button
-document.getElementById('btn').onclick = function(){
+document.getElementsByClassName('btn').onclick = function(){
     document.getElementById('form').innerHTML = 'Your Akan name is';
     document.getElementById('btn').style.display = 'none';
 }
