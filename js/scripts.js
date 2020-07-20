@@ -15,7 +15,7 @@ function getweekDay(){
         for(var i=0; i<myGender.length; i++){
             if(myGender[i].checked){
                 if(myGender[i].value === 'Male'){
-                    console.log('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + boyAkan[dayOfTheWeek]);
+                    document.getElementById('message').innerHTML=('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + boyAkan[dayOfTheWeek]);
                 }
                 else{
                 console.log('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + girlAkan[dayOfTheWeek]);
