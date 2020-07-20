@@ -4,12 +4,14 @@ function getweekDay(){
     var girlAkan=['Akosua', 'Adwoa', 'Abena', 'Akua', 'Yaa', 'Afua', 'Ama'];
     var boyAkan=['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw','Kofi', 'Kwame'];
     var myGender=document.getElementsByName('gender');
+    var myName=document.getElementById('name');
+
 
     var weekDay=document.getElementById('dob').value;
     var dateOfBirth = new Date(weekDay);
-    var dayOfTheWeek = dateOfBirth.getDay()
-    if(dayOfTheWeek === ''){
-        console.log('invalid birthday!')
+    var dayOfTheWeek = dateOfBirth.getDay();
+    if(dayOfTheWeek === '' && myGender === ''&& myName === ''){
+        document.getElementById('alert').innerHTML=('Fill in required field!');
     }
     else {
         for(var i=0; i<myGender.length; i++){
@@ -18,7 +20,7 @@ function getweekDay(){
                     document.getElementById('message').innerHTML=('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + boyAkan[dayOfTheWeek]);
                 }
                 else{
-                console.log('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + girlAkan[dayOfTheWeek]);
+                    document.getElementById('message').innerHTML=('Born on a ' + days[dayOfTheWeek] + ' your Akan Name is ' + girlAkan[dayOfTheWeek]);
                 break;
                 }
             }
